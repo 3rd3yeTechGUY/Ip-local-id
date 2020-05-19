@@ -90,3 +90,13 @@ rm -rf iptracker.log
 printf "\e[1;93m[\e[0m\e[1;77m*\e[0m\e[1;93m] Waiting Credentials and Next IP, Press Ctrl + C to exit...\e[0m\n"
 
 }
+
+
+done 
+
+}
+banner
+dependencies
+menu
+
+
